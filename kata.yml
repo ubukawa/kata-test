@@ -1,0 +1,44 @@
+bndl:
+  source: 1_geojson/bndl.geojson
+  minzoom: 1
+  maxzoom: 5
+coastl:
+  source: 1_geojson/coastl.geojson
+  minzoom: 0
+  maxzoom: 5
+grid30:
+  source: 1_geojson/graticules30.geojson
+  minzoom: 0
+  maxzoom: 4
+lake:
+  source: 1_geojson/lake.geojson
+  minzoom: 0
+  maxzoom: 5
+land:
+  source: 1_geojson/land.geojson
+  minzoom: 0
+  maxzoom: 5
+ocean:
+  source: 1_geojson/ocean.geojson
+  minzoom: 0
+  maxzoom: 4
+popp:
+  source: 1_geojson/popp.geojson
+  minzoom: 3
+  maxzoom: 5
+river:
+  source: 1_geojson/river.geojson
+  minzoom: 1
+  maxzoom: 5
+#features1:
+#  source: ./test1.geojson
+#  properties:
+#    name: properties["name:ja"]
+#  minzoom: 8
+#  maxzoom: 14
+#features2:
+#  source: https://gist.githubusercontent.com/miya0001/56c3dc174f5cdf1d9565cbca0fbd3c48/raw/c13330036d28ef547a8a87cb6df3fa12de19ddb6/test.geojson
+#  properties:
+#    title: properties.label
+#  minzoom: 2
+#  maxzoom: 10

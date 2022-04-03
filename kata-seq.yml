@@ -1,0 +1,32 @@
+bndl:
+  source: 1_geojsonseq/bndl.geojsons
+  minzoom: 1
+  maxzoom: 5
+coastl:
+  source: 1_geojsonseq/coastl.geojsons
+  minzoom: 0
+  maxzoom: 5
+grid30:
+  source: 1_geojsonseq/graticules30.geojsons
+  minzoom: 0
+  maxzoom: 4
+lake:
+  source: 1_geojsonseq/lake.geojsons
+  minzoom: 0
+  maxzoom: 5
+land:
+  source: 1_geojsonseq/land.geojsons
+  minzoom: 0
+  maxzoom: 5
+ocean:
+  source: 1_geojsonseq/ocean.geojsons
+  minzoom: 0
+  maxzoom: 4
+popp:
+  source: 1_geojsonseq/popp.geojsons
+  minzoom: 3
+  maxzoom: 5
+river:
+  source: 1_geojsonseq/river.geojsons
+  minzoom: 1
+  maxzoom: 5
